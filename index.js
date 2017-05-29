@@ -4,6 +4,8 @@
 module.exports = {
   name: 'ember-tooltips',
 
+  isDevelopingAddon: () => true,
+
   config: function(env, baseConfig) {
     var rootElement = baseConfig.APP.rootElement;
     var config = {};
